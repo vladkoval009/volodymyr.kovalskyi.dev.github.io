@@ -1,0 +1,61 @@
+body {
+    overflow-x: hidden;
+    background-color: white;
+    
+}
+
+
+@font-face {
+    font-family: "myFont";
+    src: url(font/BungeeShade-Regular.ttf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "myFontTwo";
+    src: url(font/Bungee-Regular.ttf);
+    font-weight: 300;
+}
+
+
+
+.nav-style a {
+    color: black;
+    font-family: myFontTwo;
+    font: x-large;
+    padding-left: 60px;
+}
+
+.header-vk {
+    padding: 50px;
+    font-family: myFont;    
+}
+
+.container-gallery {
+    padding: 20px;
+    background-color: lightseagreen;
+    
+
+}
+.hovereffect {
+  padding-bottom: 100px;
+  padding: 30px;
+  background-color: white;
+}
+
+.overlay a {
+  color: black !important;
+  padding-top: 100px;
+  font-family: MyFontTwo;
+}
+
+.jumbotron {
+    background-color: yellow;
+    font-family: myFont;
+
+}
+
+.list-group-horisontal a {
+    padding: 30px;
+    font-size: 50px;
+}

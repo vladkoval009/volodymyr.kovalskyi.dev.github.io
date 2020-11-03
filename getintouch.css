@@ -1,0 +1,69 @@
+body {
+    overflow-x: hidden;
+    
+}
+
+
+@font-face {
+    font-family: "myFont";
+    src: url(font/BungeeShade-Regular.ttf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "myFontTwo";
+    src: url(font/Bungee-Regular.ttf);
+    font-weight: 300;
+}
+.topsection {
+    background: url('./images/texture.jpg');
+}
+
+.nav-style a {
+    color: black;
+    font-family: myFontTwo;
+    font: x-large;
+    padding-left: 60px;
+}
+
+.header-vk {
+    color: black;
+    padding: 50px;
+
+    font-family: myFont;    
+}
+
+.container-fluid {
+    padding: 50px;
+    position: relative;
+    background-color:black;
+    color: white;
+    font-family: myFontTwo;
+}
+
+.text-section {
+    padding: 40px;
+    font-size: large;
+        
+}
+
+.email a{
+    
+    color: darkorange;
+    font-size: 12px;
+    border-bottom-style: dashed;
+    border-color: white;
+    
+}
+
+.jumbotron {
+    background-color: yellow;
+    font-family: myFont;
+
+}
+
+.list-group-horisontal a {
+    padding: 30px;
+    font-size: 50px;
+}
+

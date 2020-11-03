@@ -1,0 +1,78 @@
+body {
+    overflow-x: hidden;
+
+}
+
+
+
+@font-face {
+    font-family: "myFont";
+    src: url(font/BungeeShade-Regular.ttf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "myFontTwo";
+    src: url(font/Bungee-Regular.ttf);
+    font-weight: 300;
+}
+
+
+.nav-style a {
+    background: tranparent;
+    color: black;
+    font-family: myFontTwo;
+    font: x-large;
+    padding-left: 60px;
+}
+
+
+.header-vk {
+    color: black;
+    padding: 50px;
+    font-family: myFont;
+  
+}
+
+.container{
+    padding-bottom:50px;
+}
+
+.my-welcome-text {
+    
+    padding: 15px;
+    font-family: myFontTwo;
+    font-size: medium;
+}
+.my-photo {
+    padding: 30px;
+}
+
+.mySlides {
+    margin: 150px;
+    padding: 150px;
+
+}
+
+.last-section .container .row {
+    padding: 10px;
+    margin: 100px;
+    color: black;
+    background-color: white;
+    font-family: myFontTwo;
+    font-size: medium;
+    border: black;
+    border-style: double;       
+}
+
+.jumbotron {
+    background-color: yellow;
+    font-family: myFont;
+
+}
+
+.list-group-horisontal a {
+    padding: 30px;
+    font-size: 50px;
+}
+
